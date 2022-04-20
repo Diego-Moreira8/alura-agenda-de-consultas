@@ -27,7 +27,7 @@ button {
 header {
   display: flex;
   align-items: center;
-  padding: 2.5rem 1rem;
+  margin: 2rem 1rem;
 }
 
 #foto-enfermeira {
@@ -48,7 +48,7 @@ header {
 
 .dia {
   font-weight: bold;
-  margin: 0.5rem 1rem;
+  margin: 2rem 1rem 1rem 1rem;
 }
 
 .caixa-consulta {
@@ -88,10 +88,12 @@ header {
 
 .grupo-tipo-consulta {
   display: flex;
+  align-items: center;
 }
 
 .grupo-tipo-consulta img {
   margin-right: 0.5rem;
+  height: 0.75rem;
 }
 
 .tipo-consulta {
@@ -117,7 +119,7 @@ hr {
 
 .horario {
   font-weight: 500;
-  margin: 0.5rem 0;
+  margin-bottom: 0.5rem;
 }
 
 .botoes {
