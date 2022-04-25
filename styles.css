@@ -196,3 +196,24 @@ button {
   color: var(--branco);
   background-color: var(--corPrincipal);
 }
+
+@media (min-width: 900px) {
+  body {
+    margin: 0 5%;
+  }
+
+  .caixa-consulta {
+    width: 24rem;
+  }
+
+  .dia {
+    display: block;
+    width: 100%;
+  }
+  .grupo-dia {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
